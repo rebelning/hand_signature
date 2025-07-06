@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.grey,
                 padding: EdgeInsets.symmetric(horizontal: 16.0),
                 child: Row(
-                  spacing: 8.0,
+                  // spacing: 8.0,
                   children: [
                     Expanded(
                       child: ElevatedButton(
@@ -84,7 +84,7 @@ class SignatureExample extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
       child: Column(
-        spacing: 24.0,
+        // spacing: 24.0,
         children: <Widget>[
           Expanded(
             child: Center(
@@ -105,7 +105,7 @@ class SignatureExample extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),
             child: Row(
-              spacing: 8.0,
+              // spacing: 8.0,
               children: <Widget>[
                 Expanded(
                   child: ValueListenableBuilder(
@@ -161,7 +161,7 @@ class SignatureExample extends StatelessWidget {
           ),
           // Export preview
           Row(
-            spacing: 16.0,
+            // spacing: 16.0,
             children: [
               Expanded(
                 child: Container(

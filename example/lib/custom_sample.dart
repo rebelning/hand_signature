@@ -50,7 +50,7 @@ class CustomSampleState extends State {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
       child: Column(
-        spacing: 24.0,
+        // spacing: 24.0,
         children: <Widget>[
           Expanded(
             child: Center(
@@ -77,7 +77,7 @@ class CustomSampleState extends State {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),
             child: Row(
-              spacing: 8.0,
+              // spacing: 8.0,
               children: [
                 ElevatedButton(
                   onPressed: () => control.stepBack(),
@@ -142,7 +142,7 @@ class CustomSampleState extends State {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),
             child: Row(
-              spacing: 8.0,
+              // spacing: 8.0,
               children: <Widget>[
                 Expanded(
                   child: ElevatedButton(

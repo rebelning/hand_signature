@@ -24,7 +24,7 @@ class SignaturePaintParams {
   String get hexColor => color.hexValue;
 
   /// Opacity of [color].
-  String get opacity => '${color.a}}';
+  String get opacity => '${color.alpha / 255.0}';
 
   /// Paint settings of line.
   /// [color] - color of line.
